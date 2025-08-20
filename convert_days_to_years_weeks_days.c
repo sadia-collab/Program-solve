@@ -7,7 +7,7 @@ int main()
     scanf("%d",&days);
 
     years=days / 365;
-    days=days/365;
+    days=days%365;
     weeks=days/7;
     days=days%7;
 
@@ -16,3 +16,4 @@ int main()
     printf("Days : %d",days);
     return 0;
 }
+
