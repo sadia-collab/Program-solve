@@ -11,9 +11,10 @@ int main() {
     switch(op) {
         case 1: printf("Sum = %d\n", a+b); break;
         case 2: printf("Difference = %d\n", a-b); break;
-        case 3: printf("Product = %d\n", a*b); break;
-        case 4: printf("Quotient = %.2f\n", (float)a/b); break;
+        case 3: printf("Multiplication = %d\n", a*b); break;
+        case 4: printf("Division = %.2f\n", (float)a/b); break;
         default: printf("Invalid \n");
     }
     return 0;
 }
+
